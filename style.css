@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+path {
+  stroke: white;
+  fill: purple;
+
+  transition: fill 0.4s ease;
+}
+.heading{
+  font-size: 35px;
+}
+path#IN-AN {
+  fill: red !important;
+}
+path#IN-DD {
+  fill: red !important;
+}
+path#IN-PY {
+  fill: red !important;
+}
+path#IN-JK {
+  fill: grey !important;
+}
+path#IN-HP {
+  fill: #e36082 !important;
+}
+path#IN-NL {
+  fill: #057a7c !important;
+}
+path#IN-AS {
+  fill: #ad439b !important;
+}
+path#IN-PB {
+  fill: #ada100 !important;
+}
+path#IN-UT {
+  fill: #5daa66 !important;
+}
+path#IN-SK {
+  fill: rgb(86, 109, 223) !important;
+}
+path#IN-HR {
+  fill: #fff767 !important;
+}
+path#IN-BR {
+  fill: brown !important;
+}
+path#IN-DL {
+  fill: red !important;
+}
+path#IN-UP {
+  fill: #eca201 !important;
+}
+path#IN-KL {
+  fill: #48aa2a !important;
+}
+path#IN-KA {
+  fill: #dfa899 !important;
+}
+path#IN-OR {
+  fill: #ec5882 !important;
+}
+path#IN-WB {
+  fill: #55ff74 !important;
+}
+path#IN-MP {
+  fill: #a27fa5 !important;
+}
+
+path#IN-RJ {
+  fill: #e38f4a !important;
+}
+path#IN-AP {
+  fill: #5c4d7d !important;
+}
+path#IN-AR {
+  fill: #48a719 !important;
+}
+path#IN-ML {
+  fill: skyblue !important;
+}
+path#IN-MN {
+  fill: #efe067 !important;
+}
+path#IN-AS {
+  fill: #9c5498 !important;
+}
+path#IN-TR {
+  fill: #200c9f !important;
+}
+path#IN-MZ {
+  fill: #572026 !important;
+}
+
+path#IN-JH {
+  fill: #00808F !important;
+}
+path#IN-TG {
+  fill: #4a473b !important;
+}
+path#IN-TN {
+  fill: #FFE767 !important;
+}
+path#IN-GJ {
+  fill: #115d5b !important;
+}
+path#IN-CT {
+  fill: #8F8000 !important;
+}
+path#IN-MH {
+  fill: rgb(207, 158, 68) !important;
+}
+path:hover {
+  fill: orange !important;
+}
+
+.mapContainer {
+  text-align: center;
+}
+
+#ind-map {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 100%;
+  height: 100%;
+}
+path:hover,
+circle:hover {
+  stroke: white !important;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+  fill: #002868 !important;
+  cursor: pointer;
+}
+#path67 {
+  fill: none !important;
+  stroke: #a9a9a9 !important;
+  cursor: default;
+}
+#details-box1 {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff00;
+  border: 2px solid #bf0a30;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+#details-box {
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 14px;
+  position: fixed;
+  color: white;
+  font-family: "Poppins";
+  background-color: #000000a7;
+  width: fit-content;
+  transform: translateX(-50%);
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
